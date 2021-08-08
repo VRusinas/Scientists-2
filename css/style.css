@@ -1,0 +1,130 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    background:#f5f5f5;
+    line-height: 22px;
+    margin: 10px;
+
+}
+h1{
+  color:  #0974b3;
+  font-size: 28px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom:4px;
+}
+p
+{
+padding: 20px;
+}
+img{
+  object-fit: cover;
+}
+a{
+  margin-right: 20px;
+}
+.numbers{
+  padding-top: 6px;
+  padding-left: 20px;
+  color:#666;
+}
+.page{
+  width:900px;
+}
+.imgcontainer1{
+  float: left;
+  width:150px;
+  height:220px;
+  margin:20px;
+}
+.imgcontainer2{
+
+  float: left;
+  width:140px;
+  height:220px;
+  margin:20px;
+  object-fit: cover;
+  object-position: 0 22%;
+}
+.imgcontainer3{
+  float: left;
+  width:150px;
+  height:180px;
+  margin:20px;
+}
+.conatiner{
+  width:1000px;
+  height: 100vh;
+}
+.linija {
+  float:left;
+  width: 1000px;
+  height: 650px;
+  overflow:hidden;
+}
+.main1 {
+  margin-top:10px;
+  float: left;
+  width: 300px;
+  height: 640px;
+  background-color: white;
+  transition:transform 0.5s ease;
+}
+.main2 {
+  margin: 10px 15px;
+  float: left;
+  width: 300px;
+  height: 620px;
+  background-color: white;
+  transition:transform 0.5s ease;
+}
+.main1:hover{
+  border-top-color:#0974b3;
+ transform: translateY(-5px);
+}
+.main2:hover{
+  border-top-color:#0974b3;
+ transform: translateY(-5px);
+}
+.border{
+  border: 1px solid #efefef;
+  border-width: 1px;
+  border-top-width: 4px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.button
+{
+background-color:  #0974b3;
+white-space: nowrap;
+border: none;
+color: white;
+padding: 20px 90px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+border-radius: 100px 10px / 120px;
+}
+.button:hover{
+  background-color: #064c75;
+}
+.absolute{
+  opacity: 0;
+  position:absolute;
+  background-image:url("../images/zoom.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.absolute:hover{
+  opacity:1;
+background-color: rgb(71,70,70,0.5);
+
+}
